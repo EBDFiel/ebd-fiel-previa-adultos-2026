@@ -607,7 +607,31 @@
             .brand-logos { gap: 12px; margin-bottom: 18px; }
             .logo-oficial { max-width: 92px; padding: 6px; }
             .logo-classe-adultos { max-width: 170px; }
-        }</style>
+        }
+        .quiz-hero-banner {
+            margin: 0 auto 22px;
+            max-width: 980px;
+        }
+        .quiz-hero-banner img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 22px;
+            box-shadow: 0 22px 46px rgba(0,0,0,0.28);
+            border: 1px solid rgba(255,255,255,0.14);
+        }
+        .hero-support-text {
+            color: rgba(255,255,255,0.78);
+            font-size: 1.04rem;
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .quiz-hero-banner { margin-bottom: 18px; }
+            .quiz-hero-banner img { border-radius: 18px; }
+            .hero-support-text { font-size: 0.98rem; }
+        }
+
+    </style>
 <style id="ebdfiel-miniaturas-classe-adultos">
 /* Miniaturas por classe — Classe Adultos */
 .licao-card .classe-miniatura{width:88px;height:88px;margin:0 auto 16px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#fff,#f7fbff);border:3px solid rgba(255,255,255,.88);box-shadow:0 16px 34px rgba(0,0,0,.28),0 0 24px rgba(255,179,71,.18);overflow:hidden;}
@@ -688,12 +712,10 @@ body{background:radial-gradient(circle at 11% 13%,rgba(228,144,64,.12),transpare
 </head><body>
 <div class="container">
 <header>
-<div class="brand-logos" aria-label="Identidade EBD Fiel e Classe Adultos">
-<img src="https://i.ibb.co/9mLXgx7k/logo.png" alt="Logo oficial EBD Fiel" class="logo-img logo-oficial">
-<img src="https://ebdfiel.com.br/img/classeadultos-quiz.png?v=20260703adultosquizimg1" alt="Logo da Classe Adultos" class="logo-img logo-classe-adultos">
-</div>
-<h1>Quizzes da EBD Fiel</h1>
-<p class="subtitle">Quizzes Interativos <strong>Classe Adultos</strong></p>
+<div class="quiz-hero-banner" aria-label="Banner dos quizzes da Classe Adultos">
+                <img src="banner-quiz-classe-adultos.png?v=20260922banner1" alt="Banner Quizzes Classe Adultos — EBD Fiel">
+            </div>
+            <p class="hero-support-text">Quizzes interativos para revisar e fixar as lições da Escola Bíblica Dominical.</p>
 <div class="preview-ribbon"><i class="fas fa-flask" aria-hidden="true"></i> PRÉVIA DE TESTES • 4º TRIMESTRE 2026</div>
 <p style="color:rgba(255,255,255,.76)">Confira antecipadamente o conteúdo das 13 lições.</p>
 </header>
